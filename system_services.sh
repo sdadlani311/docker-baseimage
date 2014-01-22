@@ -3,9 +3,6 @@ set -e
 source /build/buildconfig
 set -x
 
-## Install init process.
-##cp /build/my_init /sbin/
-
 ## Install supervisor
 $minimal_apt_get_install supervisor
 mkdir -p /var/log/supervisor
